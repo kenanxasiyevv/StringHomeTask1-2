@@ -8,9 +8,9 @@ namespace StringHomeTask1_2
 {
     internal class Ceaser
     {
-        //Sezar deshifrelenmesi
         public static string CeaserMethod()
-        {
+        { 
+            //Sezar deshifrelenmesi
             Console.Write("Nece herf sola surusdurmek isteyirsiniz: ");
             int a = int.Parse(Console.ReadLine());
             Console.Write("Herf ve ya sozu daxil edin: ");
