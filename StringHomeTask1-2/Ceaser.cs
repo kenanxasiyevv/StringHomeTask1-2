@@ -22,6 +22,10 @@ namespace StringHomeTask1_2
                 if (char.IsUpper(s[i]))
                 {
                     int b = (s[i] - 64 - a) % 26 + 64;
+                    
+                       if (b <= 64)
+                        b = b + 26;
+                    
                     result += (char)b;
                 }
                 else
